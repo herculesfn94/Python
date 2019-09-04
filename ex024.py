@@ -1,0 +1,4 @@
+#crie um programa que leia o nome de uma cidade e figa se ela comeca ou nao com o nome "SANTO"
+
+cidade = str(input('Em que cidade voce nasceu? ')).strip()
+print(cidade[:5].upper() == 'SANTO')
